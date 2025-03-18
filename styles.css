@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .parent {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  width: 80%;
+  height: 300px;
+  background-color: aquamarine;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.child {
+} */
+
+.container {
+  width: 100%;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  display: grid;
+  grid-template-columns: 10% 20% 20% 20%;
+  grid-template-rows: 5% 20% 20% 5%;
+  column-gap: 20px;
+  row-gap: 20px;
+
+  /*  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center; */
+}
+
+header {
+  background-color: red;
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: green;
+  grid-row: 2 / -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shoes {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tshirts {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pants {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sweatshirts {
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jackets {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coats {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: gray;
+  grid-column: 2 / -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
